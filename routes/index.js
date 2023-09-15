@@ -1,5 +1,5 @@
 const routes = require("express").Router();
-const lesson1Controller = require("./controllers/lesson1")
+const lesson1Controller = require("../controllers/lesson1")
 
  
 routes.get('/', (req, res) => {
